@@ -86,7 +86,7 @@ type GLTFActions = Record<ActionName, THREE.AnimationAction>
 
 export default function Model(props: JSX.IntrinsicElements['group']) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('./chernovan_nemesis/scene.gltf') as GLTFResult
+  const { nodes, materials, animations } = useGLTF('./public/chernovan_nemesis/scene.gltf') as GLTFResult
   const { actions, names } = useAnimations(animations, group)
   useEffect(() => {
     actions[names[0]]?.reset().fadeIn(0.3).play()
@@ -209,4 +209,4 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
   )
 }
 
-useGLTF.preload('./chernovan_nemesis/scene.gltf')
+useGLTF.preload('./public/chernovan_nemesis/scene.gltf')
