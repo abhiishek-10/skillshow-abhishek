@@ -30,7 +30,7 @@ function ThreeScene() {
 
     return (
         <Canvas camera={{ position: [0, 5, 8] }} className="aircraft-scene">
-            <Environment files="/kloppenheim_06_puresky_1k.hdr" background blur={0} preset={'forest'} />
+            <Environment files="./kloppenheim_06_puresky_1k.hdr" background blur={0} preset={'forest'} />
             {/* <ambientLight />
       <pointLight position={[0, 5, 0]} intensity={2} />
       <directionalLight position={[0, 5, 0]} intensity={3} /> */}
