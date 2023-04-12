@@ -49,7 +49,7 @@ function ThreeScene() {
 function Showcase() {
     return (
         <Section>
-            {/* <ThreeScene /> */}
+            <ThreeScene />
             <div className="container showcase-wrapper">
                 <h1>Drag your mouse around and observe the Aircraft</h1>
             </div>

@@ -48,7 +48,7 @@ const Who = () => {
   return (
     <Section>
       <div className="who-bg">
-        {/* <Canvas camera={{ position: [0, 0, 5] }}>
+        <Canvas camera={{ position: [0, 0, 5] }}>
           <OrbitControls enableDamping={true} enableZoom={false} />
           <ambientLight />
 
@@ -68,7 +68,7 @@ const Who = () => {
           </Suspense>
           <CameraShake yawFrequency={0.2} pitchFrequency={0.2} rollFrequency={0.2} />
 
-        </Canvas> */}
+        </Canvas>
       </div>
       <div className='container'>
         <div className="who-main-wrapper">
