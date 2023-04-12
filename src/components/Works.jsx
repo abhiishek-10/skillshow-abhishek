@@ -21,7 +21,7 @@ function Works() {
           <div className="works-cards">
             <div className="single-work-card" >
               <div className="single-work-img">
-                <img src="/img/ui-ux.png" alt="" />
+                <img src="./img/ui-ux.png" alt="" />
               </div>
               <div className="single-work-title">UX & UI</div>
               <div className="single-work-desc">
@@ -30,7 +30,7 @@ function Works() {
             </div>
             <div className="single-work-card" >
               <div className="single-work-img">
-                <img src="/img/web-app.png" alt="" />
+                <img src="./img/web-app.png" alt="" />
               </div>
               <div className="single-work-title">Web & Mobile App</div>
               <div className="single-work-desc">
@@ -39,7 +39,7 @@ function Works() {
             </div>
             <div className="single-work-card" >
               <div className="single-work-img">
-                <img src="/img/design.png" alt="" />
+                <img src="./img/design.png" alt="" />
               </div>
               <div className="single-work-title">Design & Creative</div>
               <div className="single-work-desc">
@@ -48,7 +48,7 @@ function Works() {
             </div>
             <div className="single-work-card" >
               <div className="single-work-img">
-                <img src="/img/development.png" alt="" />
+                <img src="./img/development.png" alt="" />
               </div>
               <div className="single-work-title">Development</div>
               <div className="single-work-desc">
